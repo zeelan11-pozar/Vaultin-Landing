@@ -1,0 +1,89 @@
+@import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+
+/* Narkiss Font Face Declarations */
+.font-narkiss-hadash {
+  font-family: var(--font-narkiss);
+}
+
+
+@font-face {
+  font-family: "Narkiss";
+  src: url("/fonts/fonnts.com-Narkiss_Hadash_Extended_Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Narkiss";
+  src: url("/fonts/fonnts.com-Narkiss_Hadash_Extended_Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Narkiss";
+  src: url("/fonts/fonnts.com-Narkiss_Hadash_Extended_Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Narkiss";
+  src: url("/fonts/fonnts.com-Narkiss_Hadash_Extended_Heavy.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+@theme {
+  --color-primary-light: #23a2e1;
+  --color-primary-dark: #1974a1;
+
+  --color-secondary-50: #f5f5f5;
+  --color-secondary-100: #ebebeb;
+  --color-secondary-200: #d7d7d7;
+  --color-secondary-300: #c3c3c3;
+  --color-secondary-400: #afafaf;
+  --color-secondary-500: #9b9b9b;
+  --color-secondary-600: #7A7A7A;
+  --color-secondary-700: #7A7A7A;
+  --color-secondary-800: #525252;
+  --color-secondary-900: #262626;
+
+}
+
+/* Hover-unblur effect */
+.hover-unblur {
+  transition: filter 0.4s ease;
+  cursor: pointer;
+}
+
+.hover-unblur:hover {
+  filter: blur(0px) !important;
+}
+
+
+/* Default body font */
+body { 
+  font-family: var(--font-montserrat), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+  background-color: #f5f5f5; 
+}
+
+/* Utility classes for fonts */
+.font-montserrat {
+  font-family: var(--font-montserrat), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Utility class for Narkiss font */
+.font-narkiss {
+  font-family: var(--font-heading);
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1 }
+  50% { opacity: 0 }
+}
+
