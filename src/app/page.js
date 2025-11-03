@@ -39,10 +39,9 @@ export default function Home() {
       <section className="flex justify-center items-center py-12 px-4 bg-[#f1f1f1]">
         <TextType
           text={["Something amazing is coming your way!", "We’re finalizing development — launching soon."]}
-          typingSpeed={130}
+          typingSpeed={50}
           pauseDuration={500}
           showCursor={true}
-          deletingSpeed={130}
           initialDelay={1000}
           cursorCharacter="_"
           className="text-4xl md:text-5xl lg:text-6xl font-semibold text-center font-narkiss-hadash bg-gradient-to-r from-primary-light to-primary-dark bg-clip-text text-transparent"
