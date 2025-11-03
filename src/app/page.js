@@ -13,18 +13,19 @@ import MobileHero from '../components/MobileHero/MobileHero'
 import Guide from '../components/Guide/Guide'
 import HeroNew from '../components/HeroNew/HeroNew';
 import HeroBottom from '../components/HeroBottom/HeroBottom';
+import TextType from '../components/TypingText/TypingText';
 
 
 const defaultContent = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo at fuga cum dolore pariatur culpa, iste cupiditate delectus soluta natus aut sunt, provident autem eveniet quisquam similique minima dolor voluptatem!"
 export default function Home() {
   return (
-    
+
     <main className="min-h-screen bg-secondary-50 relative">
       <Header />
       {/* <HeroSection /> */}
       {/* <HeroNew /> */}
-      <DesktopHero/>
-      <MobileHero/>
+      <DesktopHero />
+      <MobileHero />
 
       {/* <CurvedLoop 
         marqueeText="LOCK ✦ SHARE ✦ EARN ✦"
@@ -34,13 +35,27 @@ export default function Home() {
         interactive={true}
         className="custom-text-black"
       /> */}
+
+      <section className="flex justify-center items-center py-12 px-4 bg-[#f1f1f1]">
+        <TextType
+          text={["Something amazing is coming your way!", "We’re finalizing development — launching soon."]}
+          typingSpeed={130}
+          pauseDuration={500}
+          showCursor={true}
+          deletingSpeed={130}
+          initialDelay={1000}
+          cursorCharacter="_"
+          className="text-4xl md:text-5xl lg:text-6xl font-semibold text-center font-narkiss-hadash bg-gradient-to-r from-primary-light to-primary-dark bg-clip-text text-transparent"
+        />
+      </section>
+
       <CardStackScroll />
       <Guide />
       <FAQSection />
       <EligibilitySection />
       <HeroBottom />
       <Footer />
-      
+
 
     </main>
   );
