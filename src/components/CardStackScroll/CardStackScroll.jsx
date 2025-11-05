@@ -26,7 +26,7 @@ const cardData = [
       "Publish your Vaultin link across Instagram, Snapchat, Telegram, and more.",
     contentLight:
       "Make exclusive content available in one click.",
-    image: "/Share (1).jpg",
+    image: "/Share.jpg",
   },
 ];
 
