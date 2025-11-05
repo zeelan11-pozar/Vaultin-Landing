@@ -12,7 +12,6 @@ import DesktopHero from '../components/DesktopHero/DesktopHero'
 import MobileHero from '../components/MobileHero/MobileHero'
 import Guide from '../components/Guide/Guide'
 import HeroBottom from '../components/HeroBottom/HeroBottom';
-import ScrollVelocity from '../components/ScrollVelocity/ScrollVelocity';
 
 export default function Home() {
   return (
@@ -33,11 +32,13 @@ export default function Home() {
         className="custom-text-black"
       /> */}
 
-      <div style={{ backgroundColor: '#f2f2f2' }}>
-        <ScrollVelocity
-          texts={['Something amazing is coming your way!', 'We\'re finalizing development — launching soon.']}
-          velocity={70}
-        />
+      <div style={{ backgroundColor: '#f2f2f2' }} className="flex flex-col items-center justify-center py-5 px-4">
+        <p className="text-4xl sm:text-5xl lg:text-[50px] bg-gradient-to-r from-primary-light to-primary-dark bg-clip-text text-transparent font-[500] leading-tight font-narkiss-hadash text-center">
+        Something amazing is coming your way
+        </p>
+        <p className="text-4xl sm:text-5xl lg:text-[50px] bg-gradient-to-r from-primary-light to-primary-dark bg-clip-text text-transparent font-[500] leading-tight font-narkiss-hadash text-center mt-4">
+          We're finalizing development — launching soon.
+        </p>
       </div>
 
       <CardStackScroll />
