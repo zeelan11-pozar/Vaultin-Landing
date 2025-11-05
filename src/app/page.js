@@ -37,7 +37,7 @@ export default function Home() {
           Something amazing is coming your way.
         </p>
         <p className="text-4xl sm:text-5xl lg:text-[50px] bg-gradient-to-r from-primary-light to-primary-dark bg-clip-text text-transparent font-[500] leading-tight font-narkiss-hadash text-center mt-4">
-          We're finalizing development — launching soon.
+          We&apos;re finalizing development — launching soon.
         </p>
       </div>
 
