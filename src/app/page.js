@@ -34,7 +34,7 @@ export default function Home() {
 
       <div style={{ backgroundColor: '#f2f2f2' }} className="flex flex-col items-center justify-center py-5 px-4">
         <p className="text-4xl sm:text-5xl lg:text-[50px] bg-gradient-to-r from-primary-light to-primary-dark bg-clip-text text-transparent font-[500] leading-tight font-narkiss-hadash text-center">
-        Something amazing is coming your way
+          Something amazing is coming your way.
         </p>
         <p className="text-4xl sm:text-5xl lg:text-[50px] bg-gradient-to-r from-primary-light to-primary-dark bg-clip-text text-transparent font-[500] leading-tight font-narkiss-hadash text-center mt-4">
           We're finalizing development — launching soon.
